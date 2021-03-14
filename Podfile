@@ -7,6 +7,8 @@ target 'Chess-App' do
 
   # Pods for Chess-App
 
+  pod 'SnapKit'
+  
   target 'Chess-AppTests' do
     inherit! :search_paths
     # Pods for testing
