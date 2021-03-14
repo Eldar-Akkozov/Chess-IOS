@@ -1,0 +1,6 @@
+framework module Pods_Chess_App_Chess_AppUITests {
+  umbrella header "Pods-Chess-App-Chess-AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
