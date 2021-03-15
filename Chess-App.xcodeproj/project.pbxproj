@@ -3,15 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		483C5DBE760554A0B1E1B158 /* Pods_Chess_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8580FF3286A4AF277F729FA9 /* Pods_Chess_App.framework */; };
 		5DF3B213D2C653447C9D41DD /* Pods_Chess_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1292B143E1022BBB46DB8CD /* Pods_Chess_AppTests.framework */; };
+		786B891125FE37D100954F46 /* GameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B891025FE37D100954F46 /* GameField.swift */; };
+		786B891925FE3A6E00954F46 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B891825FE3A6E00954F46 /* BaseView.swift */; };
+		786B891E25FE3DCC00954F46 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B891D25FE3DCC00954F46 /* GameCell.swift */; };
+		786B892325FE3F5D00954F46 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B892225FE3F5D00954F46 /* UIColorExtension.swift */; };
+		786B892B25FE500A00954F46 /* GameFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B892A25FE500A00954F46 /* GameFieldViewModel.swift */; };
 		7896688D25FBB02E001048F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896688C25FBB02E001048F9 /* AppDelegate.swift */; };
 		7896688F25FBB02E001048F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896688E25FBB02E001048F9 /* SceneDelegate.swift */; };
-		7896689125FBB02E001048F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896689025FBB02E001048F9 /* ViewController.swift */; };
+		7896689125FBB02E001048F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7896689025FBB02E001048F9 /* MainViewController.swift */; };
 		7896689425FBB02E001048F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7896689225FBB02E001048F9 /* Main.storyboard */; };
 		7896689625FBB02E001048F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7896689525FBB02E001048F9 /* Assets.xcassets */; };
 		7896689925FBB02E001048F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7896689725FBB02E001048F9 /* LaunchScreen.storyboard */; };
@@ -41,10 +46,15 @@
 		077F585118B64EF7174C44A1 /* Pods-Chess-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess-AppTests.release.xcconfig"; path = "Target Support Files/Pods-Chess-AppTests/Pods-Chess-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		216D3A6ABC3CD7FFCCB3CBD7 /* Pods-Chess-AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess-AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Chess-AppTests/Pods-Chess-AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		783DCF0FA630653337895FCB /* Pods-Chess-App-Chess-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess-App-Chess-AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Chess-App-Chess-AppUITests/Pods-Chess-App-Chess-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		786B891025FE37D100954F46 /* GameField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameField.swift; sourceTree = "<group>"; };
+		786B891825FE3A6E00954F46 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		786B891D25FE3DCC00954F46 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		786B892225FE3F5D00954F46 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		786B892A25FE500A00954F46 /* GameFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFieldViewModel.swift; sourceTree = "<group>"; };
 		7896688925FBB02E001048F9 /* Chess-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7896688C25FBB02E001048F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7896688E25FBB02E001048F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7896689025FBB02E001048F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7896689025FBB02E001048F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7896689325FBB02E001048F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7896689525FBB02E001048F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7896689825FBB02E001048F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +111,6 @@
 				216D3A6ABC3CD7FFCCB3CBD7 /* Pods-Chess-AppTests.debug.xcconfig */,
 				077F585118B64EF7174C44A1 /* Pods-Chess-AppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,11 +141,16 @@
 			children = (
 				7896688C25FBB02E001048F9 /* AppDelegate.swift */,
 				7896688E25FBB02E001048F9 /* SceneDelegate.swift */,
-				7896689025FBB02E001048F9 /* ViewController.swift */,
+				786B891025FE37D100954F46 /* GameField.swift */,
+				7896689025FBB02E001048F9 /* MainViewController.swift */,
 				7896689225FBB02E001048F9 /* Main.storyboard */,
 				7896689525FBB02E001048F9 /* Assets.xcassets */,
 				7896689725FBB02E001048F9 /* LaunchScreen.storyboard */,
 				7896689A25FBB02E001048F9 /* Info.plist */,
+				786B891825FE3A6E00954F46 /* BaseView.swift */,
+				786B891D25FE3DCC00954F46 /* GameCell.swift */,
+				786B892225FE3F5D00954F46 /* UIColorExtension.swift */,
+				786B892A25FE500A00954F46 /* GameFieldViewModel.swift */,
 			);
 			path = "Chess-App";
 			sourceTree = "<group>";
@@ -407,7 +421,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7896689125FBB02E001048F9 /* ViewController.swift in Sources */,
+				786B891E25FE3DCC00954F46 /* GameCell.swift in Sources */,
+				786B892325FE3F5D00954F46 /* UIColorExtension.swift in Sources */,
+				786B891125FE37D100954F46 /* GameField.swift in Sources */,
+				7896689125FBB02E001048F9 /* MainViewController.swift in Sources */,
+				786B891925FE3A6E00954F46 /* BaseView.swift in Sources */,
+				786B892B25FE500A00954F46 /* GameFieldViewModel.swift in Sources */,
 				7896688D25FBB02E001048F9 /* AppDelegate.swift in Sources */,
 				7896688F25FBB02E001048F9 /* SceneDelegate.swift in Sources */,
 			);
