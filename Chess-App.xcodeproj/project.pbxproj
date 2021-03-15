@@ -114,6 +114,50 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		786B893025FFB63C00954F46 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				786B893125FFB65C00954F46 /* GameView */,
+				7896689025FBB02E001048F9 /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		786B893125FFB65C00954F46 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				786B893425FFB67600954F46 /* View */,
+				786B893225FFB66A00954F46 /* ViewModel */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		786B893225FFB66A00954F46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				786B892A25FE500A00954F46 /* GameFieldViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		786B893425FFB67600954F46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				786B891D25FE3DCC00954F46 /* GameCell.swift */,
+				786B891025FE37D100954F46 /* GameField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		786B893525FFB68A00954F46 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				786B892225FE3F5D00954F46 /* UIColorExtension.swift */,
+				786B891825FE3A6E00954F46 /* BaseView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		7896688025FBB02E001048F9 = {
 			isa = PBXGroup;
 			children = (
@@ -139,18 +183,14 @@
 		7896688B25FBB02E001048F9 /* Chess-App */ = {
 			isa = PBXGroup;
 			children = (
+				786B893525FFB68A00954F46 /* Utils */,
+				786B893025FFB63C00954F46 /* Main */,
 				7896688C25FBB02E001048F9 /* AppDelegate.swift */,
 				7896688E25FBB02E001048F9 /* SceneDelegate.swift */,
-				786B891025FE37D100954F46 /* GameField.swift */,
-				7896689025FBB02E001048F9 /* MainViewController.swift */,
 				7896689225FBB02E001048F9 /* Main.storyboard */,
 				7896689525FBB02E001048F9 /* Assets.xcassets */,
 				7896689725FBB02E001048F9 /* LaunchScreen.storyboard */,
 				7896689A25FBB02E001048F9 /* Info.plist */,
-				786B891825FE3A6E00954F46 /* BaseView.swift */,
-				786B891D25FE3DCC00954F46 /* GameCell.swift */,
-				786B892225FE3F5D00954F46 /* UIColorExtension.swift */,
-				786B892A25FE500A00954F46 /* GameFieldViewModel.swift */,
 			);
 			path = "Chess-App";
 			sourceTree = "<group>";
